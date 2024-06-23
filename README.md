@@ -1,12 +1,14 @@
-dataproc
+prodata
 
-dataproc is a Python library designed to streamline common data preprocessing tasks, making it easier for data scientists and analysts to prepare their datasets for analysis and modeling. This library provides functions to handle missing data, treat outliers, encode categorical variables, and visualize data distribution using boxplots.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
+prodata is a Python library designed to streamline common data preprocessing tasks, making it easier for data scientists and analysts to prepare their datasets for analysis and modeling. This library provides functions to handle missing data, treat outliers, encode categorical variables, and visualize data distribution using boxplots.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Installation:
+pip install prodata
+from prodata.preprocessing import impute_missing_data, treat_outliers, encode_categorical_columns, draw_boxplots
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage:
 
@@ -15,7 +17,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
-from dataproc.preprocessing import impute_missing_data, treat_outliers, encode_categorical_columns, draw_boxplots
+from prodata.preprocessing import impute_missing_data, treat_outliers, encode_categorical_columns, draw_boxplots
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -67,7 +69,7 @@ Usage: Generates boxplots for each numerical column in the DataFrame, aiding in 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example:
-# Example usage of dataproc functions
+# Example usage of prodata functions
 df = pd.DataFrame({
     'A': [1, 2, 3, 4, 5],
     'B': [5, 4, 3, 2, 1],
