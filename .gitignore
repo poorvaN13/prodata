@@ -1,0 +1,29 @@
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore distribution and build files
+dist/
+build/
+dataproc.egg-info/
+build/lib/
+prodata.egg-info/
+
+# Ignore cache and temporary files
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency management files
+.venv/
+Pipfile.lock
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
