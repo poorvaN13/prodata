@@ -1,10 +1,38 @@
+Metadata-Version: 2.1
+Name: prodata
+Version: 0.1
+Summary: A Python library for data preprocessing
+Home-page: https://github.com/your_username/dataproc
+Author: Poorva Nande
+Author-email: poorva.nande@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+
 dataproc
 
 dataproc is a Python library designed to streamline common data preprocessing tasks, making it easier for data scientists and analysts to prepare their datasets for analysis and modeling. This library provides functions to handle missing data, treat outliers, encode categorical variables, and visualize data distribution using boxplots.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+Installation
+You can install dataproc using pip:
+pip install dataproc
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
