@@ -1,6 +1,7 @@
 # Ignore virtual environment directories
 env/
 venv/
+dataproc.egg-info/
 
 # Ignore system and editor files
 .DS_Store
