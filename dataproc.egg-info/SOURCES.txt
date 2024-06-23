@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dataproc.egg-info/PKG-INFO
+dataproc.egg-info/SOURCES.txt
+dataproc.egg-info/dependency_links.txt
+dataproc.egg-info/requires.txt
+dataproc.egg-info/top_level.txt
+prodata/__init__.py
+prodata/preprocessing.py
+tests/__init__.py
+tests/test_dataproc.py
